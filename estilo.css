@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+@media only screen and (max-width: 385px) {
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    #img01 {
+        background-image: url(img/estrela2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+
+    }
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header>h1 {
+    font-family: var(--font2);
+    font-size: 5em;
+    font-variant: small-caps;
+    padding: 5px;
+}
+
+header>p {
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+header>p>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header>p>a:hover {
+    text-decoration: underline;
+
+}
+
+section {
+    font-size: 2em;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 30px;
+    font-weight: bold;
+    line-height: 2em;
+    font-family: var(--font3);
+}
+
+section.imagem01>p {
+    background-color: rgba(0, 0, 0, 0.405);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.647);
+    display: inline-block;
+    padding: 5px;
+}
+
+section.imagem1>p {
+    background-color: rgba(0, 0, 0, 0.405);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.647);
+    display: inline-block;
+    padding: 5px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem01 {
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 30px;
+    background-color: rgb(74, 74, 74);
+    color: white;
+
+}
+
+
+
+.imagem1 {
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(74, 74, 74);
+    color: white;
+}
+
+#img01 {
+    background-image: url(img/estrela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+
+
+}
+
+#img02 {
+    background-image: url(img/background002.jpg);
+    background-size: cover;
+    background-position: center left;
+
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    text-align: center;
+}
